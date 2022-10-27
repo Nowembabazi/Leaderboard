@@ -3,7 +3,7 @@ import {
   name,
   score,
 } from './itemDeclaration.js';
-  
+
 export {
   displaySection,
   name,
@@ -13,9 +13,9 @@ export {
 export class Score {
   availableScores;
 
-   constructor() {
-      this.getFromLocalStorage();
-    }
+  constructor() {
+    this.getFromLocalStorage();
+  }
 
     saveToLocalStorage = (addedScores) => localStorage.setItem('availableScores', JSON.stringify(addedScores));
 
