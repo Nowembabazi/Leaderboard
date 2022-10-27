@@ -1,28 +1,28 @@
 import {
-    displaySection,
-    name,
-    score,
-  } from './itemDeclaration.js';
+  displaySection,
+  name,
+  score,
+} from './itemDeclaration.js';
   
-  export {
-    displaySection,
-    name,
-    score,
-  };
-  
-  export class Score {
-    availableScores;
-  
-    constructor() {
+export {
+  displaySection,
+  name,
+  score,
+};
+
+export class Score {
+  availableScores;
+
+   constructor() {
       this.getFromLocalStorage();
     }
-  
+
     saveToLocalStorage = (addedScores) => localStorage.setItem('availableScores', JSON.stringify(addedScores));
-  
+
     getFromLocalStorage = () => {
       this.availableScores = JSON.parse(localStorage.getItem('availableScores')) ?? [];
     };
-  
+
     displayItem = () => {
       this.getFromLocalStorage();
       displaySection.innerHTML = '';
@@ -32,7 +32,7 @@ import {
           </div>`;
       });
     };
-  
+
     addScore = (e) => {
       if (name.value === '' || score.value === '') {
         e.preventDefault();
@@ -47,9 +47,9 @@ import {
         this.displayItem();
       }
     };
-  
+
   clear = () => {
     name.value = '';
     score.value = '';
   };
-  }
+}
