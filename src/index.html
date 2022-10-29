@@ -6,26 +6,30 @@
 	<title>Leaderboard</title>
 </head>
 <body>
-  <h2 id="leader">Leaderboard</h2>
-  <div class="main-section">
-    <div class="scores-display">
-    <div class="heading">
-      <h3>Recent scores</h3>
-      <div id="btn-refresh" class="refresh">
-        <button type="submit" class="refresh">Refresh</button>
+  <main>
+    <h2 id="leader">Leaderboard</h2>
+    <div class="main">
+      <div class="scores-display">
+      <div class="title">
+        <h3>Recent scores</h3>
+      <div id="refresh-btn">
+          <button type="submit" >Refresh</button>
+        </div>
       </div>
-    </div>
-    <div id="list"></div>
-    </div>
-      <div id="leader-board">
-        <h3>Add your score</h3>
-        <form name="board" id="form" class="form" action="submit">
-          <input type="text" id="name" name="name" placeholder="Your name"><br>
-          <input type="text" id="score" name="score" placeholder="Your score"><br>
-          <button type="submit" id="btn" class="btn">Submit</button>
-        </form>
-        <div class="alert"></div>
+      <div id="list"></div>
       </div>
-    </div>
+        <div id="leaderboard">
+          <h3>Add your score</h3>
+          <form name="board" id="form" class="form" action="submit">
+            <input type="text" id="name" name="name" placeholder="Your name"><br>
+            <input type="text" id="score" name="score" placeholder="Your score"><br>
+            <button type="submit" id="btn" class="btn">Submit</button>
+          </form>
+          <div class="alert"></div>
+        </div>
+      </div>
+    
+  </main>
+
 </body>
 </html>
