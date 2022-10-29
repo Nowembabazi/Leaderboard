@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 - Code editor (Vs code)
 
 ### Setup
-- clone 'https://github.com/tashisrael/LeaderBoard.git'
+- clone 'https://github.com/Nowembabazi/LeaderBoard.git'
 - Setup Linters by running following commands in your terminal:
 
 - npm install --save-dev stylelint@13.x stylelint-scss@3.x - - - stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)

@@ -2,17 +2,19 @@
 
 body {
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  background: #aed6f1;
-}
-
-h1 {
-  font-size: 50px;
+  background: #898d8f;
 }
 
 h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+h3 {
   font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #list {
@@ -25,7 +27,7 @@ h2 {
   justify-content: center;
 }
 
-.scores-section {
+.scores-display {
   display: inline-block;
   vertical-align: top;
 }
@@ -49,27 +51,18 @@ h2 {
 .availableScore {
   display: flex;
   justify-content: space-between;
-  gap: 8.5rem;
+  gap: 7.5rem;
   align-items: center;
-  padding: 0 15px;
-  margin: 0;
-}
-
-.availableScore:nth-child(even) {
-  background-color: #eee;
-}
-
-.availableScore:nth-child(odd) {
-  background-color: #fff;
+  padding: 2 15px;
 }
 
 .forminput {
   font-family: 'Lato', sans-serif;
   color: #333;
   font-size: 1rem;
-  padding: 1rem 2rem;
+  padding: 1.2rem 2.1rem;
   border-radius: 0.2rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(194, 170, 170);
   border: none;
   width: 90%;
   display: block;
@@ -80,35 +73,15 @@ button {
   align-items: center;
   appearance: none;
   border: 0;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
-  border-radius: 6px;
+  border-radius: 4px;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
   box-sizing: border-box;
   color: #fff;
-  cursor: pointer;
   display: inline-flex;
   font-family: 'Lato', sans-serif;
   height: 38px;
   justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow 0.15s, transform 0.15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow, transform;
   font-size: 18px;
-}
-
-button:focus {
-  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
 button:hover {
@@ -117,7 +90,7 @@ button:hover {
 }
 
 button:active {
-  box-shadow: #3c4fe0 0 3px 7px inset;
+  box-shadow: #828388 0 3px 7px inset;
   transform: translateY(2px);
 }
 
