@@ -1,62 +1,57 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## Leaderboard 
 
-# Project Name
-
-> Description the project.
-
+**This is a simple HTML Leaderbaord project. This simple web page is built using webpack and served by a webpack dev server.**
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
+- Webpack
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+- [Live Demo Link]().
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Computer
+- Code editor (Vs code)
 
 ### Setup
+- clone 'https://github.com/tashisrael/LeaderBoard.git'
+- Setup Linters by running following commands in your terminal:
 
-### Install
+- npm install --save-dev stylelint@13.x stylelint-scss@3.x - - - stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
 
-### Usage
+- npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
-### Run tests
+- npx stylelint "*/.{css,scss}" (checks for the CSS related errors in your project)
 
-### Deployment
+- npx stylelint "*/.{css,scss}" --fix (This will fix the linters error, if any)
 
+- npm install --save-dev hint@7.x (Install the WebHint Linters)
 
+- Run npx eslint . on the root of your directory of your project.
+
+- npx hint . (You should see Finishing... on your terminal)
 
 ## Authors
 
-👤 **Author1**
+👤 **Nowembabazi Nickson**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Nowembabazi)
+- Twitter: [@twitterhandle](https://twitter.com/NowembabaziN)
+- Linkedin: [@linkedinhandle](https://www.linkedin.com/in/nowembabazi-nickson-6a66b0181/l)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/tashisrael/LeaderBoard/issues).
 
 ## Show your support
 
@@ -64,12 +59,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
