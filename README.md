@@ -42,10 +42,9 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Nowembabazi Nickson**
-
-- GitHub: [@githubhandle](https://github.com/Nowembabazi)
-- Twitter: [@twitterhandle](https://twitter.com/NowembabaziN)
-- Linkedin: [@linkedinhandle](https://www.linkedin.com/in/nowembabazi-nickson-6a66b0181/l)
+- GitHub: [@Nowembabazi](https://github.com/Nowembabazi)
+- Twitter: [@tNowembabaziN](https://twitter.com/NowembabaziN)
+- LinkedIn: [nowembabazi-nickson](https://www.linkedin.com/in/nowembabazi-nickson-181077247/)
 
 ## 🤝 Contributing
 
